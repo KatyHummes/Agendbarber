@@ -18,6 +18,17 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
+        colors: {
+            'th-primary': '#2DC8C5',
+            'th-primary-dark': '#208F8D',
+            'th-green': '#2DC8C5',
+            'th-green-dark': '#208F8D',
+            'th-red': '#C82D30',
+            'th-red-dark': '#B04042',
+            'th-gray': '#7A7A7A',
+            'white': '#FFFFFF',
+            'black': '#000000',
+        },
     },
 
     plugins: [forms, typography],
